@@ -1,0 +1,50 @@
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="colorlib.com">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="main.css" media="all">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Finder</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+
+
+      </ul>
+      <button class="btn btn-danger navbar-btn" id="reg" onclick="location.href='/Register'">Register</button>
+    </div>
+  </nav>
+  <div class="s01">
+    <form>
+      <fieldset>
+        <legend>Find The Owner</legend>
+      </fieldset>
+      <div class="inner-form">
+        <div class="input-field first-wrap">
+          <input id="search" type="text" name="EN" placeholder="Enter Engine Number" />
+        </div>
+        <div class="input-field second-wrap">
+          <input id="location" type="text" name="CN" placeholder="Enter Chassis Number" />
+        </div>
+        <div class="input-field third-wrap">
+          <a class="btn-search" id="noneee" type="submit" onclick="location.href='/user'">Search</a>
+        </div>
+      </div>
+    </form>
+  </div>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>

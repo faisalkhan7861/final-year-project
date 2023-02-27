@@ -1,0 +1,49 @@
+<html ang="en" dir="ltr">
+
+<head>
+    <!-- <script>
+        function timeout() {
+            window.location.href = "/gd";
+        }
+        const time = setTimeout(function () { timeout() }, 300000);
+    </script> -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="\user.css">
+</head>
+
+<body>
+
+
+    <div class="column">
+        <h1 class="guardH">Owner</h1>
+        <% if(data[0].length!=0){ %>
+            <hr>
+            <p class="p">
+                Name : <%= data[0].Name %>
+            </p>
+            <p class="p">Phone Number : <%= data[0].Phone_Number %>
+            </p>
+            <p class="p">Engine Number : <%= data[0].Engine_Number %>
+            </p>
+            <p class="p">Chassis Number : <%= data[0].Chassis_Number %>
+            </p>
+            <!-- <p class="p">Gender : <%= data[0].GENDER %>
+            </p> -->
+            <p class="p">Address : <%= data[0].Address %>
+            </p>
+            <p class="p">DL Number : <%= data[0].DL_Number %>
+            </p>
+            <!-- <p class="p">Religion : <%= data[0].RELIGION %>
+            </p>
+            <p class="p">Nationality : <%= data[0].NATIONALITY %>
+            </p>
+            <hr>
+            <h3 class="guardH">Contact info</h3>
+            <p class="p">Number : <%= data[0].PHONE_NO %>
+            </p><br></br>
+            <a type="submit" class="button" onclick="location.href='/gd'">Log out</a>-->
+    </div>
+    <% } %>
+</body>
+
+</html>
